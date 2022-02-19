@@ -1,9 +1,6 @@
-Instruction here: https://www.youtube.com/watch?v=SWYqp7iY_Tc
-
-
+This tutorial shows how to get started with git and github from windows machine. Stepwise instruction is provided below.
 
 #### check git version
-
 ``git --version``
 
 #### open git bash at a specific folder
@@ -118,3 +115,6 @@ ctrl+scroll zoom in/out
 
 #### To download the entire git directory, copy the git link from github website. Then click
 ``git clone paste_the_directory''
+
+
+Relevant link: Instruction here: https://www.youtube.com/watch?v=SWYqp7iY_Tc
