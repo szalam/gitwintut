@@ -27,7 +27,9 @@ ctrl+scroll zoom in/out
 ```touch index.html```
 
 #### Initialize git repository
-``git init``
+```
+git init
+```
 
 #### Add name and email address to git:
 ```
@@ -39,10 +41,14 @@ git config --global user.email 'your.email@gmail.com'
 ```git add README.md```
 
 #### If we want to see whats going on in the staging area we should type. It will show README.md is in the staging area.
-``git status``
+```
+git status
+```
 
 #### If we want to remove a file from the staging area
-``git rm --cached README.md``
+```
+git rm --cached README.md
+```
 
 #### Add everything. This will add all folders and files in the repo
 ```git add .```
@@ -62,6 +68,8 @@ git status
 * This will open a file. If you want to edit then activate insert mode using clicking "i"
 * Then uncomment any like or insert like "Initial commit"
 * To save, first click Esc and then :wq and enter to same everything
+
+<img src="figure/fig2.png" alt="drawing" width="600"> <br>
 
 #### Now type git status, it will say nothing to commit
 ```git status```
@@ -96,18 +104,26 @@ We can also ignore an entire folder. To do that, write /directory_name in the gi
 * Here, creating a branch is useful rather than working on the main branch (master)
 
 #### lets create a branch
-``git branch test``
-``git status``
+```
+git branch test
+git status
+```
 
 #### We are still in the master branch. To switch to the test branch type:
-``git checkout test``
+```
+git checkout test
+```
 
 #### lets create new file while in the test branch
-``touch README2.md``
+```
+touch README2.md
+```
 
 #### Manually edit README2.md and type:
-``git add .``
-``git commit -m 'README2 created'``
+```
+git add .
+git commit -m 'README2 created'
+```
 
 #### Now lets switchback
 ``git checkout master``
@@ -125,7 +141,9 @@ First create a new repository in the github account
 ```git remote```
 
 #### adding a remote repo
-```git remote add origin https://github.com/szalam/gitwintut.git```
+```
+git remote add origin https://github.com/szalam/gitwintut.git
+```
 
 #### typing git remote will show origin
 ```git remote```
@@ -145,7 +163,7 @@ git push
 ```
 git clone paste_the_directory
 ```
+<img src="figure/fig3.png" alt="drawing" width="600"> <br>
 
-
-Relevant link: Instruction here: https://www.youtube.com/watch?v=SWYqp7iY_Tc
-Relevant Env GP link: https://github.com/envgp/sample_jupyter_notebooks
+* Relevant link: Instruction here: https://www.youtube.com/watch?v=SWYqp7iY_Tc
+* Relevant Env GP link: https://github.com/envgp/sample_jupyter_notebooks
