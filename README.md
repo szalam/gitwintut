@@ -1,16 +1,46 @@
 # Getting started with git and github from windows OS
 
-* Sarfaraz Alam
-* Stanford University
-* February 2022
+* Author: Sarfaraz Alam, Stanford University
 
 This tutorial shows how to get started with git and github from windows machine.
+
+#### What is Git?
+* Git is version control system (VCS) used to track changes in computer files
+* It coordinates work between different developers
+* Useful to track who mades changes and when changes mades
+* Revert back in time
+* The are both local and remote repositories (repos)
+
+#### Why Git?
+* Tracks code history
+* Keeps 'snapshots' of files and one can decide when to take snapshots by using 'commit'
+* One can visit any snapshot at any time
+* Very useful to control version and track different component of a code which might be written by multiple people
+
 
 #### The primary connection between key steps in git can be represented with the following figure:
 
 ![alt text](https://res.cloudinary.com/practicaldev/image/fetch/s--M_fHUEqA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/128hsgntnsu9bww0y8sz.png)
 
+
+#### Commonly used git commands
+* git init		: Git repository initialize locally
+* git add		: Add files to index
+* git status	: Check status in the working tree
+* git commit	: Commit changes in Index
+* git push		: Push to Remote Repository
+* git pull		: Pull latest from Remote Repository
+* git clone		: Clone repository in a new directory in local computer
+* git checkout	: Switching betwee different versions of Repository
+
 # Lets get started
+
+#### Download and install git for windows
+* First download git for windows machine using the following link. I have downloaded the "64-bit Git for Windows Setup". Link to download: http://git-scm.com/download/win
+* Install git using the setup files. After installation, You should be able to search 'Git Bash' when you search git in windows search.
+* Click on 'Git Bash'
+
+<img src="figure/fig0.png" alt="drawing" width="600"> <br>
 
 #### Check git version
 ```git --version```
