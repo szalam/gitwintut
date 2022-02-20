@@ -1,74 +1,92 @@
-This tutorial shows how to get started with git and github from windows machine. Stepwise instruction is provided below.
+## Getting started with git and github from windows OS
 
-#### check git version
-``git --version``
+Sarfaraz Alam
+Stanford University
+February 2022
 
-#### open git bash at a specific folder
+This tutorial shows how to get started with git and github from windows machine.
+
+#### Check git version
+```git --version```
+
+#### Open git bash at a specific folder
 Right click on the folder you want to work and click "Git bash here" - this will open the git command prompt at that folder
 
-#### increase/decrease font size or zoom in/out
+<img src="figure/fig1.png" alt="drawing" width="500"> <br>
+
+#### Increase/decrease font size or zoom in/out
 ctrl+scroll zoom in/out
 
-#### creating new file using 'touch'
-``touch index.html``
+#### Creating new file using 'touch'
+```touch index.html```
 
-#### initialize git repository
+#### Initialize git repository
 ``git init``
 
-#### add name and email address to git:
-``git config --global user.name 'your name'``
-``git config --global user.email 'your.email@gmail.com'``
+#### Add name and email address to git:
+```
+git config --global user.name 'your name'
+git config --global user.email 'your.email@gmail.com'
+```
 
-#### add git file
-``git add README.md``
+#### Add git file
+```git add README.md```
 
-#### if we want to see whats going on in the staging area we should type. It will show README.md is in the staging area.
+#### If we want to see whats going on in the staging area we should type. It will show README.md is in the staging area.
 ``git status``
 
-#### if we want to remove a file from the staging area
+#### If we want to remove a file from the staging area
 ``git rm --cached README.md``
 
 #### Add everything. This will add all folders and files in the repo
-``git add .``
+```git add .```
 
 #### Now make some changes in the README.md file and type git status. It will show README.md was modified while it was in staging area
-``git status``
+```git status```
 
 #### Now git add again
-``git add .``
-``git status``
+```
+git add .
+git status
+```
 
 #### Now git commit
-``git commit``
+```git commit```
 
-#### This will open a file. If you want to edit then activate insert mode using clicking "I"
-#### Then uncomment any like or insert like "Initial commit"
-#### To save, first click Esc and then :wq and enter to same everything
+* This will open a file. If you want to edit then activate insert mode using clicking "i"
+* Then uncomment any like or insert like "Initial commit"
+* To save, first click Esc and then :wq and enter to same everything
 
 #### Now type git status, it will say nothing to commit
-``git status``
+```git status```
 
 #### Now if we want to commit but we want to skip the editor to open and manual editing shown before
-``git commit -m 'Changed README.md'``
+```git commit -m 'Changed README.md' ```
 
 #### To clear the window
 ``clear``
 
 #### Now if we don't want to include specific files or folders to the git, we need git ignore. First create gitignore
-``touch .gitignore``
+
+``
+touch .gitignore
+``
 
 #### Say we want to ignore log.txt
-``touch log.txt``
+```touch log.txt```
 
 #### Now open the gitignore file in text editor and type log.txt in that. Then type add and git status. The log.txt won't be added
-``git add .``
-``git status``
+```
+git add .
+git status
+```
 
-#### we can also ignore an entire folder. To do that, write /directory_name in the gitignore file
+We can also ignore an entire folder. To do that, write /directory_name in the gitignore file
 
-### Branches
-#### There are projects where multiple people working. One don't want to edit the main code base before finishing 
-#### the functionality. Here, creating a branch is useful rather than working on the main branch (master)
+### Create Branches
+* There are projects where multiple people working. One don't want to edit the main code base before finishing  the functionality. 
+* Here, creating a branch is useful rather than working on the main branch (master)
+
 #### lets create a branch
 ``git branch test``
 ``git status``
@@ -87,34 +105,39 @@ ctrl+scroll zoom in/out
 ``git checkout master``
 
 #### Now if we want to merge the test branch
-``git merge test``
+```git merge test```
 
-#### If we are going to work on my own project, you might not even need a branch
+If you are going to work on your own project, you might not even need a branch
 
 
-### Work on remote repository
-#### First create a new repository in the github account
+### How to work on remote repository
+First create a new repository in the github account
 
 #### type git remote. But won't have anything as we are not connected to remote repo
-``git remote``
+```git remote```
 
 #### adding a remote repo
-``git remote add origin https://github.com/szalam/MAR_CVGW.git``
+```git remote add origin https://github.com/szalam/MAR_CVGW.git```
 
 #### typing git remote will show origin
-``git remote``
+```git remote```
 
 #### push to remote repository. It might ask for login information
-``git push -u origin master``
+```git push -u origin master```
 
 #### say we want to make a change and then upload
 #### start editing README.md file. After editing
-``git add .``
-``git commit -m 'Additional info added'``
-``git push``
+````
+git add .
+git commit -m 'Additional info added'
+git push
+````
 
 #### To download the entire git directory, copy the git link from github website. Then click
-``git clone paste_the_directory''
+```
+git clone paste_the_directory
+```
 
 
 Relevant link: Instruction here: https://www.youtube.com/watch?v=SWYqp7iY_Tc
+Relevant Env GP link: https://github.com/envgp/sample_jupyter_notebooks
