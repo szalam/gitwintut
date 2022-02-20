@@ -1,4 +1,4 @@
-## Getting started with git and github from windows OS
+# Getting started with git and github from windows OS
 
 Sarfaraz Alam
 Stanford University
@@ -8,9 +8,9 @@ This tutorial shows how to get started with git and github from windows machine.
 
 The primary connection between key steps in git can be represented with the following figure:
 
-<img src="https://camo.githubusercontent.com/19825b8e008904e14f1259d0731fd13db45873c0d27e7eb4de67054f57d4c99f/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f70726163746963616c6465762f696d6167652f66657463682f732d2d4d5f6648554571412d2d2f635f6c696d6974253243665f6175746f253243666c5f70726f6772657373697665253243715f6175746f253243775f3838302f68747470733a2f2f74686570726163746963616c6465762e73332e616d617a6f6e6177732e636f6d2f692f3132386873676e746e737539627777307938737a2e706e67" alt="drawing" width="700> 
+![alt text](https://res.cloudinary.com/practicaldev/image/fetch/s--M_fHUEqA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/128hsgntnsu9bww0y8sz.png)
 
-### Lets get started
+# Lets get started
 
 #### Check git version
 ```git --version```
@@ -70,13 +70,15 @@ git status
 ```git commit -m 'Changed README.md' ```
 
 #### To clear the window
-``clear``
+```
+clear
+```
 
 #### Now if we don't want to include specific files or folders to the git, we need git ignore. First create gitignore
 
-``
+```
 touch .gitignore
-``
+```
 
 #### Say we want to ignore log.txt
 ```touch log.txt```
@@ -89,7 +91,7 @@ git status
 
 We can also ignore an entire folder. To do that, write /directory_name in the gitignore file
 
-### Create Branches
+# Create Branches
 * There are projects where multiple people working. One don't want to edit the main code base before finishing  the functionality. 
 * Here, creating a branch is useful rather than working on the main branch (master)
 
@@ -116,7 +118,7 @@ We can also ignore an entire folder. To do that, write /directory_name in the gi
 If you are going to work on your own project, you might not even need a branch
 
 
-### How to work on remote repository
+# How to work on remote repository
 First create a new repository in the github account
 
 #### type git remote. But won't have anything as we are not connected to remote repo
@@ -132,7 +134,7 @@ First create a new repository in the github account
 ```git push -u origin master```
 
 #### say we want to make a change and then upload
-#### start editing README.md file. After editing
+start editing README.md file. After editing
 ````
 git add .
 git commit -m 'Additional info added'
