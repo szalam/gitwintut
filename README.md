@@ -1,12 +1,12 @@
 # Getting started with git and github from windows OS
 
-Sarfaraz Alam
-Stanford University
-February 2022
+* Sarfaraz Alam
+* Stanford University
+* February 2022
 
 This tutorial shows how to get started with git and github from windows machine.
 
-The primary connection between key steps in git can be represented with the following figure:
+#### The primary connection between key steps in git can be represented with the following figure:
 
 ![alt text](https://res.cloudinary.com/practicaldev/image/fetch/s--M_fHUEqA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/128hsgntnsu9bww0y8sz.png)
 
