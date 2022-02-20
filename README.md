@@ -6,13 +6,19 @@ February 2022
 
 This tutorial shows how to get started with git and github from windows machine.
 
+The primary connection between key steps in git can be represented with the following figure:
+
+<img src="https://camo.githubusercontent.com/19825b8e008904e14f1259d0731fd13db45873c0d27e7eb4de67054f57d4c99f/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f70726163746963616c6465762f696d6167652f66657463682f732d2d4d5f6648554571412d2d2f635f6c696d6974253243665f6175746f253243666c5f70726f6772657373697665253243715f6175746f253243775f3838302f68747470733a2f2f74686570726163746963616c6465762e73332e616d617a6f6e6177732e636f6d2f692f3132386873676e746e737539627777307938737a2e706e67" alt="drawing" width="700> 
+
+### Lets get started
+
 #### Check git version
 ```git --version```
 
 #### Open git bash at a specific folder
 Right click on the folder you want to work and click "Git bash here" - this will open the git command prompt at that folder
 
-<img src="figure/fig1.png" alt="drawing" width="500"> <br>
+<img src="figure/fig1.png" alt="drawing" width="600"> <br>
 
 #### Increase/decrease font size or zoom in/out
 ctrl+scroll zoom in/out
@@ -117,7 +123,7 @@ First create a new repository in the github account
 ```git remote```
 
 #### adding a remote repo
-```git remote add origin https://github.com/szalam/MAR_CVGW.git```
+```git remote add origin https://github.com/szalam/gitwintut.git```
 
 #### typing git remote will show origin
 ```git remote```
